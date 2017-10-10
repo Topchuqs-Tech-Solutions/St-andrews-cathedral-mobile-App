@@ -55,7 +55,7 @@ public class StatsForm extends SideMenuBaseForm {
         super(new BorderLayout());
         Toolbar tb = getToolbar();
         tb.setTitleCentered(false);
-        Image profilePic = res.getImage("user-picture.jpg");        
+        Image profilePic = res.getImage("user-picture.png");        
         Image tintedImage = Image.createImage(profilePic.getWidth(), profilePic.getHeight());
         Graphics g = tintedImage.getGraphics();
         g.drawImage(profilePic, 0, 0);
